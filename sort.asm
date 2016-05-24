@@ -2,7 +2,7 @@
 .386
 .stack 3000h
 .data
-    head        db "Bubble sort:", endl, 0
+    head        db "Bubble sort:", endl, 0 ;test
     str_fin     db 'Press "1" - File input', endl, 0
     str_cin     db 'Press "2" - Console input', endl, 0
     str_n       db 'n = ', 0
